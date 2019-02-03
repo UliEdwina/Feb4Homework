@@ -2,3 +2,34 @@
     display:block;
     background-color: white;
 }
+#nav {
+    background-color: black;
+    height: 70px;
+
+}
+.logo{
+width:150px;
+}
+ul {
+display:flex;
+flex-direction:row-reverse;
+justify-content:space-between;
+list-style:none;
+color: white;
+margin-top:-40px;
+width:700px;
+padding-left: 500px;
+}
+ul, #list_1 {
+    word-spacing: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    
+}
+#content{
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
